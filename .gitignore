@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+data/store.json
+data/*.sqlite
+data/enforce.conf*
+bench/run/
+bench/rules/
+bench/htdocs/
+*.tgz

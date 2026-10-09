@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or its data, please cite it as below."
+title: "aiverify: verifying AI crawler claims against the history of official IP lists"
+type: software
+authors:
+  - family-names: Nahdi
+    given-names: Farid Dihan
+    affiliation: "Universitas Gadjah Mada"
+version: 1.0.0
+date-released: 2026-10-09
+license: MIT
+repository-code: "https://github.com/dihannahdi/aiverify"
+keywords:
+  - web crawler
+  - AI crawler
+  - bot verification
+  - impersonation
+  - IP ranges
+  - Apache

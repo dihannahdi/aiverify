@@ -1,0 +1,12 @@
+[Unit]
+Description=aiverify: fetch vendor crawler IP lists and record new versions
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/aiverify
+# Generates data/enforce.conf for review; production Apache does not include it.
+ExecStart=/usr/bin/python3 -m aiverify sync --store data/store.json --apache-out data/enforce.conf
+Nice=10
+IOSchedulingClass=idle

@@ -1,0 +1,16 @@
+[Unit]
+Description=aiverify: verify claimed crawler requests from the claims log
+After=network-online.target
+
+[Service]
+WorkingDirectory=/opt/aiverify
+ExecStart=/usr/bin/python3 -m aiverify monitor --store data/store.json --log /www/wwwlogs/aiverify-claims.log --db data/monitor.sqlite
+Restart=on-failure
+RestartSec=30
+Nice=10
+IOSchedulingClass=idle
+CPUQuota=50%
+MemoryMax=512M
+
+[Install]
+WantedBy=multi-user.target

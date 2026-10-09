@@ -1,0 +1,9 @@
+/www/wwwlogs/aiverify-claims.log {
+    weekly
+    rotate 104
+    compress
+    delaycompress
+    missingok
+    notifempty
+    copytruncate
+}

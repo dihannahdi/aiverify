@@ -1,0 +1,59 @@
+{
+ "impersonating": {
+  "ips": 279,
+  "requests": 4521,
+  "median_requests_per_ip": 1,
+  "ips_on_2plus_sites": 10,
+  "pct_ips_cross_site": 3.6,
+  "burst_hours": 3,
+  "pct_requests_in_bursts": 0.4,
+  "max_distinct_ips_in_one_hour": 7,
+  "shared_path_cells": 2,
+  "pct_requests_on_shared_paths": 0.2,
+  "distinct_ua_strings_by_class": {
+   "perplexitybot": 58,
+   "gptbot": 126,
+   "chatgpt-user": 96,
+   "perplexity-user": 100,
+   "oai-searchbot": 104
+  },
+  "requests_by_class": {
+   "perplexitybot": 914,
+   "gptbot": 896,
+   "chatgpt-user": 1315,
+   "perplexity-user": 571,
+   "oai-searchbot": 825
+  }
+ },
+ "verified_null_model": {
+  "ips": 3055,
+  "requests": 53532,
+  "median_requests_per_ip": 6,
+  "ips_on_2plus_sites": 1042,
+  "pct_ips_cross_site": 34.1,
+  "burst_hours": 1752,
+  "pct_requests_in_bursts": 37.1,
+  "max_distinct_ips_in_one_hour": 38,
+  "shared_path_cells": 434,
+  "pct_requests_on_shared_paths": 3.9,
+  "distinct_ua_strings_by_class": {
+   "oai-searchbot": 2,
+   "chatgpt-user": 1,
+   "gptbot": 4,
+   "perplexitybot": 2,
+   "perplexity-user": 2
+  },
+  "requests_by_class": {
+   "oai-searchbot": 15379,
+   "chatgpt-user": 15477,
+   "gptbot": 18696,
+   "perplexitybot": 3852,
+   "perplexity-user": 128
+  }
+ },
+ "rdns_top25_impersonating": {
+  "googleusercontent.com": 23,
+  "other": 1
+ },
+ "burst_k": 5
+}
